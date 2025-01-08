@@ -1,0 +1,78 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #f3f4f6; 
+    flex-direction: column;
+}
+
+.box {
+    text-align: center;
+    background-color: #ffffff;
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.box p {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #374151; 
+}
+
+button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button.add {
+    background-color: #10b981; 
+    color: #ffffff;
+}
+
+button.sub {
+    background-color: #ef4444; 
+    color: #ffffff;
+}
+
+.delete{
+    background-color: #ef4444; 
+    color: #ffffff;
+}
+
+button.reset {
+    background-color: #3b82f6; 
+    color: #ffffff;
+}
+
+button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+
+.trigger{
+    background-color: rgb(136, 113, 240);
+    color: white;
+}
+
+
+.completed{
+    color: #118f5a;
+}
+
+.incomplete{
+    color: #8f0808;
+}

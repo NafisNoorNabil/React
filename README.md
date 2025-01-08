@@ -1,7 +1,10 @@
 # Practice
-- Making cards in react
-- use of props
 - creating list items
+- use of states
+- creating a counter
+- deleting items from a list
+- making components
+- use of props
 
 
 # Color Picker
