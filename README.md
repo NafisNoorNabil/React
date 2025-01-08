@@ -1,8 +1,8 @@
-Practice: 
-1. Making cards in react
-2. use of props
-3. creating list items
+#Practice
+- Making cards in react
+- use of props
+- creating list items
 
 
-Color Picker: 
+#Color Picker
 A simple color picker app
